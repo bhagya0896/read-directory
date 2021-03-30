@@ -5,7 +5,7 @@ const path = require ("path");
 const app = express();
 var dir_info = "";
 
-// API to get data of folders and files present in G drive
+// API router to get data of folders and files present in G drive
 
 app.get('/',(req,res)=>
 {
